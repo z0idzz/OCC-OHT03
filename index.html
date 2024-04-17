@@ -1,0 +1,156 @@
+<!-- -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Day 3 - HTML </title>
+    </head>
+    <body>
+        <P>
+            This is paragraph.
+        </P>
+        <!-- Headings-->
+        <h1>This is Heading 1 </h1>
+        <h2>This is Heading 2</h2>
+        <h3>This is Heading 3</h3>
+        <h4>This is Heading 4</h4>
+        <h5>This is Heading 5</h5>
+        <h6>This is Heading 6</h6>
+       
+       <hr> <!-- Inserting a horizontal line-->
+       <p>
+
+        This is the first line. This is the second line This is the third line
+       </p>
+
+       <p>
+
+        This is the first line. <br/> <!-- <br/> insert new line-->
+        This is the second line <br/> 
+        This is the third line
+       </p>
+       <hr> <!-- Inserting a horizontal line-->
+       <!-- Structural Elements-->
+       <h4 style="background-color: rgb(144, 75, 136); color: #ede4e4;">Block-level Element</h4>
+       <div> This is a Div. It's a Block-level Element</div>
+       <div> This is a Div. It's a Block-level Element</div>
+       <h4>Inline-level Element</h4>
+       <span>This is a span. It's an inline-level elements.</span>
+       <span>This is a span. It's an inline-level elements.</span>
+
+       <hr> <!-- Inserting a horizontal line-->
+       <h3 style="background-color: rgb(167, 206, 167)">Text Styling</h3>
+       <strong><a id="section1">This is anchor point. Jump here</a></strong>
+       <p> This is an <Strong> important</Strong>  text</p>
+       <p> This text is <em>Emphasized</em>.</p>
+       <p> This text is <u>underlined</u>.</p>
+       <p> This text is <s>no longer valid</s>.</p>
+       <p>H<sub>2</sub>0</p>
+       <p>The speed of light is approximately 3 x 10 <sup>8</sup>m/s</p>
+
+       <hr> <!-- Inserting a horizontal line-->
+       <h3 style="background-color: rgb(167, 206, 167)">Order List</h3>
+       <ol>
+            <li>First orderlist item</li>
+            <li>Second orderlist item</li>
+            <li>Third orderlist item</li>
+        </ol>
+
+        <h3 style="background-color: rgb(167, 206, 167)"> Unordered List</h3>
+       <ul  type = "none">
+            <li>First unordered list item</li>
+            <li>Second unordered list item</li>
+            <li>Third unordered list item</li>
+        </ul>
+
+        <h3 style="background-color: rgb(167, 206, 167)"> Definition List</h3>
+       <dl><!-- Definition List-->
+            <dt>HTML</dt> <!-- Definition Term-->
+            <dd>HyperText Markup Language</dd> <!-- Definition Description-->
+           
+            <dt>CSS</dt> <!-- Definition Term-->
+            <dd>Cascading Style Sheet</dd> <!-- Definition Description-->
+           
+        </dl>
+
+        <h3 style="background-color: lightgoldenrodyellow">Nested List</h3>
+             <ul>
+                <li>List Item 1</li>
+                <li>List Item 2</li>
+                    <ol>
+                         <li>Subitem 1</li>
+                        <li>Subitem 2</li>
+                    </ol>
+                 <li>List Item 3</li>
+                </ul>
+                <hr> <!-- Inserting a horizontal line-->
+      <h3 style="background-color: #f7b98677">Link and Anchors</h3>
+
+    <p>
+        Go to this website
+        <a href="https://www.youtube.com"> Visit External Website</a>
+    </p>
+
+    <p>
+        open link in a new tab
+        <a href="https://www.youtube.com" target="_blank"> Visit External Website on new tab</a>
+    </p>
+
+    <hr> <!-- Inserting a horizontal line-->
+    <h5>Sample Page</h5>
+    <p>This is some content on a page.</p>
+    <!--<a id="section1">This is anchor point. Jump here</a>-->
+    <h4>Section 1</h4>
+    <p>this is content of section 1</p>
+    <a href="#section1">Jump to section 1</a>
+    <p>more content here</p>
+
+    <hr> <!-- Inserting a horizontal line-->
+
+   
+    <form action="">
+        <h3 style="background-color: aqua;">Sample Form</h3>
+        
+        <!-- Text Input -->
+      <label for="name"> Name: </label>
+      <input type="text" id="name" required />
+
+      <br />
+      <!-- Textarea -->
+      <label for="message"> Message: </label>
+      <textarea id="message" rows="4" cols="50"placeholder="Enter a message here" required></textarea>
+
+      <br />
+      <!-- Dropdown Menu -->
+      <label for="gender"> Gender </label>
+      <select id="gender">
+        <option>Female</option>
+        <option>Male</option>
+      </select>
+
+      <br />
+      <!-- Radio Button -->
+      <input type="radio" id="option1" name="options" />
+      <label for="option1"> Option 1 </label>
+      <input type="radio" id="option2" name="options" />
+      <label for="option2"> Option 2 </label>
+      <input type="radio" id="option3" name="options" />
+      <label for="option3"> Option 3 </label>
+
+      <br />
+      <!-- Checkboxes -->
+      <input type="checkbox" id="check1" name="checkboxes" />
+      <label for="check1"> Check 1</label>
+      <input type="checkbox" id="check2" name="checkboxes" />
+      <label for="check2"> Check 2</label>
+        <input type="checkbox" id="check3" name="checkboxes" />
+      <label for="check3"> Check 3</label>
+      <br />
+      <button type="submit">Submit</button>
+        
+    </form>
+    <br>
+
+    </body>
+</html>
+
